@@ -1,0 +1,109 @@
+@import './reset.css';
+main {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+main header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 15px 50px;
+  background: linear-gradient(rgb(76, 184, 196), rgb(60, 211, 173));
+}
+main header .title {
+  color: #fff;
+  font-size: 44px;
+  font-weight: 700;
+  text-align: center;
+  line-height: 1.18;
+  margin-bottom: 20px;
+}
+main header form {
+  display: flex;
+  align-items: center;
+}
+main header form .btn {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  color: #fff;
+  width: 145px;
+  height: 54px;
+  background: #ED3052;
+  border-radius: 6px;
+}
+main header form input {
+  width: 460px;
+  height: 54px;
+  background: #fff;
+  border-radius: 6px;
+  color: #000;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1;
+  padding: 15px 57px 15px 15px;
+}
+main .card__content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+}
+main .card__content .card {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 360px;
+  height: 250px;
+  border-radius: 6px;
+  background: #fff;
+  box-shadow: 0px 5px 20px 0px rgba(27, 108, 114, 0.25);
+  flex-shrink: 0;
+  position: relative;
+}
+main .card__content .card::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 10px;
+  bottom: -10px;
+  z-index: -1;
+  width: calc(100% - 20px);
+  height: 100%;
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(27, 108, 114, 0.25);
+}
+main .card__content .card .card__intro {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+main .card__content .card .card__intro .city {
+  color: #000;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 1;
+}
+main .card__content .card .card__intro h1 {
+  color: #000;
+  font-size: 92px;
+  line-height: 92px;
+  font-weight: 400;
+}
+main .card__content .card .card__intro .text {
+  color: #000;
+  font-weight: 400;
+  font-size: 20px;
+}
+main footer {
+  height: 50px;
+  width: 100%;
+  margin-top: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(rgb(76, 184, 196), rgb(60, 211, 173));
+}/*# sourceMappingURL=style.css.map */
